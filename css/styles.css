@@ -1,0 +1,17 @@
+.main{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:block;
+}
+
+.item{
+    display: none;
+}
+
+.prato{
+    width: 300px;
+    height: 300px;
+}
