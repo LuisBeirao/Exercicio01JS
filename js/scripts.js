@@ -1,12 +1,18 @@
-let itens=document.getElementsByClassName("item")
-
 function paginar(id) 
 {
-	for(i=0;i<itens.length;i++)
-	{
-		//itens[i].classList.remove("active");
-	}
+	const itens=document.getElementById("principal")
 
-	document.getElementById(id).style.display = "block";
+	for(const filhos of itens.children)
+	{
+		if (filhos.id == id)
+		{
+			filhos.style.display = "block";
+			filhos.classList.add("active");
+		}else
+		{
+			filhos.style.display = "none";
+			filhos.classList.remove("active");
+		}
+	}
 }
  

@@ -8,9 +8,8 @@
         <script src="js/scripts.js"></script>
     </head>
     <body>
-
-        <div class="main">
-            <div  id="pag1" class="item">
+        <div id="principal" class="main">
+            <div  id="pag1" class="item active">
                 <h2>Bolo</h2>
                 <img class="prato" src="images/bolo.jpg">
                 <p>Descrição bolo</p>
@@ -27,15 +26,13 @@
                 <img class="prato" src="images/torta.jpg">
                 <p>Descrição torta</p>
             </div>
-        </div>
-        
-        
-        <nav>
-            <ul class="pagination">
-                <li class="page-item" onclick="paginar('pag1')"><a class="page-link" href="#">1</a></li>
-                <li class="page-item" onclick="paginar('pag2')"><a class="page-link" href="#">2</a></li>
-                <li class="page-item" onclick="paginar('pag3')"><a class="page-link" href="#">3</a></li>
-            </ul>
-        </nav>
+        </div>        
+
+        <ul class="pagination">
+            <li class="page-item" onclick="paginar('pag1')"><a class="page-link" href="#">1</a></li>
+            <li class="page-item" onclick="paginar('pag2')"><a class="page-link" href="#">2</a></li>
+            <li class="page-item" onclick="paginar('pag3')"><a class="page-link" href="#">3</a></li>
+        </ul>
+
     </body>
 </html>
