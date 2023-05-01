@@ -6,7 +6,7 @@ function paginar(id)
 	{
 		if (filhos.id == id)
 		{
-			filhos.style.display = "block";
+			filhos.style.display = "contents";
 			filhos.classList.add("active");
 		}else
 		{

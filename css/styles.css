@@ -2,17 +2,26 @@
     width: 100vw;
     height: 90vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    display:block;
+
+    background: #dddddd;
 }
 
 .item{
     display: none;
+    width: 100%;
 }
 
-.item:active{
-    display: block;
+#pag1{
+    display: contents;
+    width: 100%;    
+}
+
+.h2{
+    justify-content: center;
+    align-items: center;
 }
 
 .prato{
